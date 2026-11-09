@@ -1,0 +1,24 @@
+[
+  {
+    "key": "feasible",
+    "name": "提交演示 A · 可行报价",
+    "expected": "FEASIBLE",
+    "overrides": {}
+  },
+  {
+    "key": "infeasible",
+    "name": "提交演示 B · 客户限价",
+    "expected": "INFEASIBLE",
+    "overrides": {
+      "customer_unit_price_ceiling": "3.00"
+    }
+  },
+  {
+    "key": "missing",
+    "name": "提交演示 C · 交期资料缺失",
+    "expected": "INSUFFICIENT_DATA",
+    "overrides": {
+      "setup_days": null
+    }
+  }
+]

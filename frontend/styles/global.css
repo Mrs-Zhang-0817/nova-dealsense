@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{color-scheme:dark;--bg:#0a1422;--card:#122236;--text:#e8f1fa;--muted:#a1b5c9;--blue:#2563be;--positive:#51dbc3;--risk:#ff8989;--border:#30455d;--radius:12px;--space:1.5rem;--chart-1:var(--positive);--chart-2:#77afff;--font:Inter,"Microsoft YaHei",sans-serif}
+body{background:var(--bg);color:var(--text);font-family:var(--font)}
+main{max-width:1080px;margin:auto;padding:0 clamp(18px,5vw,64px) 48px}
+header,article{display:flex;align-items:center;justify-content:space-between;gap:var(--space)}
+header{padding:20px 0;border-bottom:1px solid var(--border)}
+strong{letter-spacing:.05em}section{padding:64px 0 32px}
+small,p{color:var(--muted)}h1{font-size:clamp(32px,5vw,56px);font-weight:650;margin:8px 0}
+h2{font-size:22px;margin:20px 0 12px}article,li,input,table{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:var(--space)}
+article h2{margin:4px 0}.online{color:var(--positive)}.offline{color:var(--risk)}button{background:var(--blue)}
+ul{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+@media(max-width:540px){article{align-items:flex-start;flex-direction:column}section{padding-top:32px}}
+
+.portfolio-value{margin:16px 0;color:var(--text);font-variant-numeric:tabular-nums}
+.orders .scroll{max-width:100%}.orders table,.orders dd,.orders strong{font-variant-numeric:tabular-nums}
+@media(max-width:900px){header{flex-wrap:wrap}main{min-width:0}.orders select{max-width:min(100%,82vw)}}
+

@@ -1,0 +1,24 @@
+{
+  "brand": "NOVA DealSense",
+  "switch": "English",
+  "workspace": "AI-Powered Global Export Deal Intelligence",
+  "title": "出口交易决策",
+  "intro": "帮助制造业出口企业分析交易条件，反向寻找可行报价，并在利润、客户要求和交付约束之间寻找平衡。",
+  "market": "演示市场",
+  "route": "中国 → 美国",
+  "connection": "API 连接",
+  "checking": "连接中…",
+  "online": "已连接",
+  "offline": "连接失败",
+  "retry": "重新连接",
+  "modules": "业务模块",
+  "names": [
+    "交易总览",
+    "订单管理",
+    "订单智能分析",
+    "反向交易优化",
+    "交易方案对比",
+    "决策报告"
+  ]
+}
+

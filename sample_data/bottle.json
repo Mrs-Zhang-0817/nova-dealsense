@@ -1,0 +1,46 @@
+{
+  "name": "不锈钢水瓶出口演示",
+  "buyer": {
+    "company_name": "演示采购商",
+    "country_code": "US"
+  },
+  "origin_country": "CN",
+  "destination_country": "US",
+  "currency": "USD",
+  "incoterm": "FOB",
+  "status": "draft",
+  "items": [
+    {
+      "product": {
+        "name": "Stainless Steel Bottle",
+        "sku": "DEMO-BOTTLE",
+        "unit": "件"
+      },
+      "quantity": "5000",
+      "unit_price": "3.00",
+      "unit_price_currency": "USD",
+      "unit_manufacturing_cost": "12.96",
+      "cost_currency": "CNY",
+      "manufacturing_confirmed": true
+    }
+  ],
+  "costs": [
+    {
+      "cost_type": "other",
+      "description": "演示固定费用",
+      "amount": "2500",
+      "currency": "USD",
+      "confirmed": true,
+      "included": true
+    }
+  ],
+  "exchange_rates": [
+    {
+      "base": "USD",
+      "quote": "CNY",
+      "rate": "7.20",
+      "date": "2026-11-08",
+      "source": "手工演示汇率"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "brand": "NOVA DealSense",
+  "switch": "简体中文",
+  "workspace": "Exporter workspace",
+  "title": "Deal intelligence",
+  "intro": "Evaluate profit and find feasible trade terms within operating constraints.",
+  "market": "Demo market",
+  "route": "China → United States",
+  "connection": "API connection",
+  "checking": "Connecting…",
+  "online": "Connected",
+  "offline": "Unavailable",
+  "retry": "Retry",
+  "modules": "Planned modules",
+  "names": [
+    "Deal Dashboard",
+    "Deal Management",
+    "Deal Intelligence",
+    "Reverse Deal Optimizer",
+    "Scenario Comparison",
+    "Decision Reports"
+  ]
+}

@@ -1,0 +1,16 @@
+node_modules/
+.next/
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.tsbuildinfo
+uploads/
+.local/
+*.log
+
+release-backups/
+submission/
+submission-*.zip
+
